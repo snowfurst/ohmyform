@@ -5,7 +5,7 @@ import subprocess
 
 #Set default port
 if not os.environ["PORT"]:
-	os.environ["PORT"] = "5000"
+	os.environ["PORT"] = "8080"
 
 #Set default sockets port
 if not os.environ["SOCKET_PORT"]:
