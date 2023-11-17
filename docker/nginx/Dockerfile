@@ -10,7 +10,7 @@ RUN chmod +x /letsencrypt.py
 RUN chmod +x /config.py
 
 ENV NODE_ENV=development
-ENV PORT=5000
+ENV PORT=8080
 ENV SOCKET_PORT=20523
 ENV TLS_FLAVOR=notls
 ENV BASE_URL=localhost
